@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "rootDirs": [
+            "./server"
+        ],
+        "outDir": "dist/server",
+        "noImplicitAny": false,
+        "target": "ES2022",
+        "module": "commonjs",
+        "lib": [
+            "ES2022",
+            "ESNext"
+        ],
+        "jsx": "react",
+        "allowJs": true,
+        "sourceMap": true,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "skipLibCheck": true,
+    },
+    "include": [
+        "server"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
